@@ -196,15 +196,6 @@ API_KEY="your-secret-api-key-12345"
 
 ---
 
-## Security Notes
-
-- JWT tokens expire after 30 minutes
-- Passwords are hashed using Argon2
-- Do not commit `.env` files
-- SQLAlchemy ORM prevents SQL injection
-
----
-
 ## Testing
 
 Tests are located in:
@@ -235,3 +226,4 @@ docker logs recipe_database
 ## License
 
 MIT
+

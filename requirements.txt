@@ -1,0 +1,11 @@
+fastapi==0.104.1          # Web framework
+uvicorn==0.24.0           # Web server to run FastAPI
+sqlalchemy==2.0.23        # Database ORM (Object Relational Mapper)
+psycopg2-binary==2.9.9    # PostgreSQL driver
+pydantic==2.5.0           # Data validation
+python-dotenv==1.0.0      # Read .env files
+pydantic-settings==2.1.0  # Settings management
+requests==2.31.0          # HTTP library for testing
+python-jose[cryptography]==3.3.0  # JWT tokens
+passlib[argon2]==1.7.4    # Password hashing
+python-multipart==0.0.6   # Required for OAuth2PasswordRequestForm

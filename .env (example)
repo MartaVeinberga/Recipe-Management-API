@@ -1,0 +1,12 @@
+# PostgreSQL credentials
+POSTGRES_USER=recipeuser
+POSTGRES_PASSWORD=recipepass123
+POSTGRES_DB=recipedb
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+
+# JWT Secret Key
+SECRET_KEY="your-jwt-secret-key-67890"
+
+#Api key
+API_KEY="your-secret-api-key-12345"
